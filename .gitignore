@@ -1,11 +1,7 @@
 # C++ (Linux)
-*.out
-*.o
-*.so
-*.a
-*.d
-*.dSYM/
-*.gch
+*
+!*/
+!*.*
 
 # Carpetas de compilación
 /build/
