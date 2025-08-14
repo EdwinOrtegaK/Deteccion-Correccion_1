@@ -1,0 +1,43 @@
+# C++ (Linux)
+*.out
+*.o
+*.so
+*.a
+*.d
+*.dSYM/
+*.gch
+
+# Carpetas de compilación
+/build/
+/bin/
+/dist/
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.pkl
+*.egg
+*.egg-info/
+.Python
+.env
+.venv/
+env/
+venv/
+pip-wheel-metadata/
+*.manifest
+*.spec
+
+# Carpetas de virtualenv
+ENV/
+env.bak/
+
+# VSCode
+.vscode/
+
+# Archivos temporales del sistema
+*~
+*.swp
+.DS_Store
+Thumbs.db
