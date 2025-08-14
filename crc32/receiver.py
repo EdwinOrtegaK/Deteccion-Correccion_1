@@ -29,9 +29,9 @@ def main():
     calc_crc_bits = to_bits32_msb(crc32_msb_bits(payload))
 
     if recv_crc_bits == calc_crc_bits:
-        print("No se detectaron errores. Payload:", payload)
+        print("No se detectaron errores. \nPayload:", payload)
     else:
-        print("Se detectaron errores. Trama descartada.")
+        print("Se detectaron errores. \nTrama descartada.")
 
 if __name__ == "__main__":
     main()
